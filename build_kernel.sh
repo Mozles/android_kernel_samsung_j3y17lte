@@ -8,5 +8,6 @@ export RUSTC_WRAPPER=/usr/bin/sccache
 export GOCACHE=/home/pmos/.cache/go-build 
 export HOME=/home/pmos
 
-make exynos7570-j3y17lte_defconfig
-make -j8
+#make exynos7570-j3y17lte_defconfig
+make mrproper
+make -j8 O=out
