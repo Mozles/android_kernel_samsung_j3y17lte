@@ -2,7 +2,7 @@
 export ARCH=arm64
 export CARCH=aarch64 
 export SUDO_APK='abuild-apk --no-progress' 
-export CROSS_COMPILE=aarch64-alpine-linux-musl- 
+export CROSS_COMPILE=gcc4-aarch64-alpine-linux-musl- 
 export CC=aarch64-alpine-linux-musl-gcc 
 export RUSTC_WRAPPER=/usr/bin/sccache 
 export GOCACHE=/home/pmos/.cache/go-build 
