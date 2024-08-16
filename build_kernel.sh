@@ -1,4 +1,5 @@
 #!/bin/bash
+export ARCH=arm64
 export CARCH=aarch64 
 export SUDO_APK='abuild-apk --no-progress' 
 export CROSS_COMPILE=aarch64-alpine-linux-musl- 
